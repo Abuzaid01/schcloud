@@ -18,10 +18,11 @@ const Footer = () => {
               <h1 className="text-xl text-blue-700 hover:to-blue-400 font-bold my-auto  inline-block ">
                 <a href="#home">
                   <img
-                className="w-15 h-15 object-contain inline-block"
-                src="../src/assets/logo.png "
-                alt="logo"
-              /> SchCloud
+                    className="w-15 h-15 object-contain inline-block"
+                    src="../public/pics/logo.png "
+                    alt="logo"
+                  />{' '}
+                  SchCloud
                 </a>
               </h1>
             </div>

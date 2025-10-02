@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { Menu, X } from 'lucide-react' // icons
 import { FiMenu, FiX } from 'react-icons/fi'
 import { IoSchool } from 'react-icons/io5'
 
@@ -16,7 +15,7 @@ const Header = () => {
             <a href="#home">
               <img
                 className="w-10 h-10 object-contain inline-block"
-                src="../src/assets/logo.png "
+                src="../public/pics/logo.png "
                 alt="logo"
               />{' '}
               SchCloud

@@ -56,7 +56,7 @@ const AboutUs = () => {
       <div className=" md: relative flex items-center justify-center bg-gray-300 rounded-full w-80 h-80 ">
         <div className="  items-center justify-center rounded-full flex w-64 h-64 bg-white">
           <img
-            src="./src/assets/logo.png"
+            src="./public/pics/logo.png"
             alt=" logo "
             className="object-contain w-32 h-32 "
           />
