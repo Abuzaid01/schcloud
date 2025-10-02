@@ -18,7 +18,7 @@ const Hero = () => {
     //before:absolute before:inset-0 before:bg-black/50
     <div
       id="home"
-      className=" items-center bg-[url(./assets/studentsGroup-4.jpg)] overflow-auto min-h-screen w-full  bg-cover bg-center bg-no-repeat justify-center align-center py-30 px-5 md:pt-30 md:px-30 md pb-5 -mt-30 mb-10  bg-black/30 bg-blend-color "
+      className=" items-center bg-[url(/public/pics/studentsGroup-4.jpg)] overflow-auto min-h-screen w-full  bg-cover bg-center bg-no-repeat justify-center align-center py-30 px-5 md:pt-30 md:px-30 md pb-5 -mt-30 mb-10  bg-black/30 bg-blend-color "
     >
       <Header />
       <div className=" mx-auto md:mt-40 grid grid-flow-cols cols-1 md:grid-cols-2 gap-6 mt-30">
