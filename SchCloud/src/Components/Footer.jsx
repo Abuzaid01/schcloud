@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="#home">
                   <img
                     className="w-15 h-15 object-contain inline-block"
-                    src="../public/pics/logo.png "
+                    src="/pics/logo.png "
                     alt="logo"
                   />{' '}
                   SchCloud

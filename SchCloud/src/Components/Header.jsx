@@ -15,7 +15,7 @@ const Header = () => {
             <a href="#home">
               <img
                 className="w-10 h-10 object-contain inline-block"
-                src="../public/pics/logo.png "
+                src="/pics/logo.png "
                 alt="logo"
               />{' '}
               SchCloud
