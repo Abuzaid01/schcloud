@@ -2,19 +2,17 @@ import React from 'react'
 import Hero from './Hero'
 import AboutUs from './AboutUs'
 import OurSolution from './OurSolution'
-import ContactUs from './Footer'
-import Admission from './Admission'
-import Faq from './Faq'
-import Carousel from './Carousel'
+import Footer from './Footer'
+import VersatileSolution from './VersatileSolution'
 
 const Home = () => {
   return (
-    <div className='relative'>
-      <Hero/>
+    <div className="relative">
+      <Hero />
       <AboutUs />
-      <OurSolution/>
-      <Carousel />
-      <ContactUs/>
+      <OurSolution />
+      <VersatileSolution />
+      <Footer />
     </div>
   )
 }
