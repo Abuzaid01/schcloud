@@ -36,7 +36,7 @@ const VersatileSolution = () => {
           {/* Carousel Section */}
 
           <div className="my-5 ">
-            <div className="flex flex-row space-x-3 md:space-x-5 items-center overflow-hidden mx-10 md:mx-50 relative  ">
+            <div className="grid grid-row items-center overflow-hidden mx-10 md:mx-50 relative  ">
               {/* <div className="absolute top-50% left-0 z-50 w-10 h-10 bg-white  border-1 border-gray-300 hover:border-gray-700 hover:cursor-pointer shadow-xl shadow-gray-200 rounded-full items-center justify-center flex mr-5 ">
                 <GoChevronLeft className="size-7 " />
               </div>
@@ -47,9 +47,9 @@ const VersatileSolution = () => {
               <Carousel autoSlideInterval={5000}>
                 <div
                   id="carousel1"
-                  className="flex flex-col space-x-3 md:flex-row  space-y-5 p-5 mx-auto w-full flex-shrink-0  "
+                  className="grid grid-cols  md:grid-cols-3  gap-4 p-2 mx-auto w-full "
                 >
-                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-5 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
+                  <div className="flex flex-col  rounded-xl justify-between bg-white shadow-2xl border border-gray-100 p- mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-pink-400 to-pink-600 px-7 py-5 rounded-t-xl items-center relative ">
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -top-10 -right-10  "></div>
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -bottom-13 -left-10  "></div>
@@ -83,7 +83,7 @@ const VersatileSolution = () => {
                       <FaArrowRight className="size-3 " />
                     </div>
                   </div>
-                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-5 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
+                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-blue-400 to-blue-600 px-7 py-5 rounded-t-xl items-center relative ">
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -top-10 -right-10  "></div>
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -bottom-13 -left-10  "></div>
@@ -118,7 +118,7 @@ const VersatileSolution = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-5 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
+                  <div className="flex flex-col justify-between rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-purple-400 to-purple-600 px-7 py-5 rounded-t-xl items-center relative ">
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -top-10 -right-10  "></div>
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -bottom-13 -left-10  "></div>
@@ -154,9 +154,9 @@ const VersatileSolution = () => {
                 </div>
                 <div
                   id="carousel2"
-                  className="flex flex-col space-x-3 md:flex-row  space-y-5 p-5 mx-5 w-full flex-shrink-0 "
+                  className="grid grid-cols gap-4 md:grid-cols-3 p-2 mx-auto w-full "
                 >
-                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-5 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
+                  <div className="flex flex-col justify-between rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-green-400 to-green-600 px-7 py-5 rounded-t-xl items-center relative ">
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -top-10 -right-10  "></div>
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -bottom-13 -left-10  "></div>
@@ -189,7 +189,7 @@ const VersatileSolution = () => {
                       <FaArrowRight className="size-3 " />
                     </div>
                   </div>
-                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-5 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
+                  <div className="flex flex-col justify-between rounded-xl bg-white shadow-2xl border border-gray-100 mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-orange-400 to-orange-600 px-7 py-5 rounded-t-xl items-center relative ">
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -top-10 -right-10  "></div>
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -bottom-13 -left-10  "></div>
@@ -225,7 +225,7 @@ const VersatileSolution = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-col  rounded-xl bg-white shadow-2xl border border-gray-100 p- mx-5 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
+                  <div className="flex flex-col justify-between rounded-xl bg-white shadow-2xl border border-gray-100 mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-teal-400 to-teal-600 px-7 py-5 rounded-t-xl items-center relative ">
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -top-10 -right-10  "></div>
                       <div className="absolute bg-white/20 w-20 h-20 rounded-full -bottom-13 -left-10  "></div>
