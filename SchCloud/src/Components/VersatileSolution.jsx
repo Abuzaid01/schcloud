@@ -47,7 +47,7 @@ const VersatileSolution = () => {
               <Carousel autoSlideInterval={5000}>
                 <div
                   id="carousel1"
-                  className="grid grid-cols  md:grid-cols-3  gap-4 p-2 mx-auto w-full "
+                  className="grid grid-cols  md:grid-cols-3  gap-4 p-2 amx-auto w-full "
                 >
                   <div className="flex flex-col  rounded-xl justify-between bg-white shadow-2xl border border-gray-100 p- mx-1 hover:-translate-y-3 transition-all ease-in-out overflow-hidden ">
                     <div className="flex flex-row justify-between bg-gradient-to-r from-pink-400 to-pink-600 px-7 py-5 rounded-t-xl items-center relative ">

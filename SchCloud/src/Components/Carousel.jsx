@@ -26,7 +26,7 @@ function Carousel({ children, autoSlideInterval = 3000 }) {
 
   return (
     <div className="relative w-full ">
-      <div className="relative h-265 md:h-100 overflow-hidden rounded-lg shadow-xl">
+      <div className="relative h-265 md:h-100 overflow-hidden mx-10 rounded-lg shadow-xl">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -42,7 +42,7 @@ function Carousel({ children, autoSlideInterval = 3000 }) {
 
       <button
         onClick={prevSlide}
-        className="absolute -left-4 z-70 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white/10 hover:border shadow-xl p-2 rounded-full transition-all"
+        className="absolute left-4 z-70 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white/10 hover:border shadow-xl p-2 rounded-full transition-all"
         aria-label="Previous slide"
       >
         <ChevronLeft className="w-6 h-6 text-gray-800" />
@@ -50,7 +50,7 @@ function Carousel({ children, autoSlideInterval = 3000 }) {
 
       <button
         onClick={nextSlide}
-        className="absolute -right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white/10 hover:border shadow-xl p-2 rounded-full transition-all"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white/10 hover:border shadow-xl p-2 rounded-full transition-all"
         aria-label="Next slide"
       >
         <ChevronRight className="w-6 h-6 text-gray-800" />

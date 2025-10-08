@@ -39,11 +39,7 @@ const Footer = () => {
                 <a href="#">Student Management</a>{' '}
               </li>
               <li className="hover:text-white">
-                <a href="#">
-                  <li className="hover:text-white">
-                    <a href="#">Fee Management</a>{' '}
-                  </li>
-                </a>{' '}
+                <a href="#">Fee Management</a>{' '}
               </li>
               <li className="hover:text-white">
                 <a href="#">Teacher Portal</a>{' '}
@@ -60,11 +56,7 @@ const Footer = () => {
                 <a href="#">About Us</a>{' '}
               </li>
               <li className="hover:text-white">
-                <a href="#">
-                  <li className="hover:text-white">
-                    <a href="#">Contact</a>{' '}
-                  </li>
-                </a>{' '}
+                <a href="#">Contact</a>{' '}
               </li>
               <li className="hover:text-white">
                 <a href="#">Support</a>{' '}
@@ -81,11 +73,7 @@ const Footer = () => {
                 <a href="#"> Privacy Policy</a>{' '}
               </li>
               <li className="hover:text-white">
-                <a href="#">
-                  <li className="hover:text-white">
-                    <a href="#">Terms of Service</a>{' '}
-                  </li>
-                </a>{' '}
+                <a href="#">Terms of Service</a>{' '}
               </li>
               <li className="hover:text-white">
                 <a href="#">Cookie Policy</a>{' '}
