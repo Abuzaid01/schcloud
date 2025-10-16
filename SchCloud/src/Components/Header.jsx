@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     // <div className='my-15 mb-20 rounded-50%'>
-    <header className='fixed top-0 left-0 my-3 w-full bg-white shadow-md z-50 opacity rounded-2xl '>
+    <header className='fixed  top-0 left-0 my-3 w-full bg-white shadow-md z-70 opacity rounded-2xl '>
       <nav className='flex justify-between items-center max-w-6xl mx-auto p-4'>
         {/* Logo */}
         <div className='justify-items-start '>
