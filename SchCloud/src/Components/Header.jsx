@@ -18,7 +18,7 @@ const Header = () => {
                 className='w-10 h-10 object-contain inline-block'
                 src='/pics/logo.png '
                 alt='logo'
-              />{' '}
+              />
               SchCloud
             </a>
           </h1>
